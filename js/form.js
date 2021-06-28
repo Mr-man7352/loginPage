@@ -1,6 +1,6 @@
 
 const pass_field = document.querySelector(".pass-key");
-const showBtn = document.querySelector(".show");
+const showBtn = document.querySelector(".formShow");
 showBtn.addEventListener("click", function () {
   if (pass_field.type === "password") {
     pass_field.type = "text";
