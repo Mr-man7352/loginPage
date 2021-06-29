@@ -158,14 +158,14 @@ i span {
 @media(max-width:666px){
   .bg-img {
     height: 77vh;
-    background: url(../image/bg.jpg);
+    background: rgba(0, 0, 0, 0.7) url(../image/bg.jpg);
     background-size: cover;
     background-blend-mode: darken;
     background-position: center;
   }
 
   .bg-img:after {
-   
+   position: relative;
     height: 88%;
   }
 
