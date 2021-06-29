@@ -174,3 +174,17 @@ i span {
         top: 284px;
       }
 }
+
+@media(max-width:390px){
+  .bg-img {
+      height: 88vh;
+      background: rgba(0, 0, 0, 0.7) url(../image/bg.jpg);
+      background-size: cover;
+      background-blend-mode: darken;
+      background-position: center;
+    }
+    .content {
+      width: 336px;
+    }
+
+  }

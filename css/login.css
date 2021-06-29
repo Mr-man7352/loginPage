@@ -174,3 +174,10 @@ i span {
     top: 239px;
   }
 }
+
+@media(max-width:390px){
+  .content {
+      width: 336px;
+    }
+
+  }
